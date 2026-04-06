@@ -123,7 +123,7 @@ Feature: Geolocation
 
 > El reporte muestra ambos features ejecutados con éxito en 26 segundos.
 
-![Página de Geolocation con coordenadas](img/geolocation.png)
+![Página de Geolocation con coordenadas](img/geolocalizacion.png)
 ![Página de Geolocation con coordenadas](img/whereAmI.png)
 
 > La página muestra la latitud y longitud simuladas tras hacer clic en el botón.
