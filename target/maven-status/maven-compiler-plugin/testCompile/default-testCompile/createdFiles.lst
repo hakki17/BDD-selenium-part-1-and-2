@@ -1,3 +1,5 @@
-edu/eci/bddproject/AppTest.class
 steps/SearchSteps.class
+edu/eci/bddproject/AppTest.class
+steps/GeolocationSteps.class
 TestRunner.class
+pages/GeolocationPage.class

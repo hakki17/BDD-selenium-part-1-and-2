@@ -13,6 +13,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.concurrent.TimeUnit;
+import java.time.Duration;
 
 public class SearchSteps {
     private WebDriver driver;
@@ -22,13 +23,14 @@ public class SearchSteps {
         try {
             System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
             ChromeOptions options = new ChromeOptions();
+            options.setBinary("/usr/local/bin/chrome");
             options.addArguments("--headless");
             options.addArguments("--disable-gpu");
             options.addArguments("--no-sandbox");
             options.addArguments("--disable-dev-shm-usage");
             options.addArguments("--remote-allow-origins=*");
             driver = new ChromeDriver(options);
-            driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         } catch (Exception e) {
             e.printStackTrace();
             throw new RuntimeException("Failed to initialize ChromeDriver", e);

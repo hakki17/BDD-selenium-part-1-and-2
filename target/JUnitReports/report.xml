@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="6.343">
-    <testcase classname="Google Search" name="Search for a term" time="6.023">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="26.475">
+    <testcase classname="Geolocation" name="User can see their coordinates after clicking Where Am I" time="22.714">
+        <system-out><![CDATA[Given I am on the Geolocation page..........................................passed
+When I click the "Where am I?" button.......................................passed
+Then I should see my latitude on the screen.................................passed
+And I should see my longitude on the screen.................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Google Search" name="Search for a term" time="3.463">
         <system-out><![CDATA[Given I am on the Google search page........................................passed
 When I search for "GitHub"..................................................passed
 Then I should see "GitHub" in the results...................................passed

@@ -1,3 +1,5 @@
-/workspaces/BDD-part1/src/test/java/edu/eci/bddproject/AppTest.java
-/workspaces/BDD-part1/src/test/java/edu/eci/bddproject/runners/TestRunner.java
-/workspaces/BDD-part1/src/test/java/edu/eci/bddproject/steps/SearchSteps.java
+/workspaces/BDD-selenium-part-1-and-2/src/test/java/edu/eci/bddproject/AppTest.java
+/workspaces/BDD-selenium-part-1-and-2/src/test/java/edu/eci/bddproject/pages/GeolocationPage.java
+/workspaces/BDD-selenium-part-1-and-2/src/test/java/edu/eci/bddproject/runners/TestRunner.java
+/workspaces/BDD-selenium-part-1-and-2/src/test/java/edu/eci/bddproject/steps/GeolocationSteps.java
+/workspaces/BDD-selenium-part-1-and-2/src/test/java/edu/eci/bddproject/steps/SearchSteps.java
